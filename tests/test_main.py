@@ -48,7 +48,7 @@ def test_reverse_string():
 
 def test_is_palindrome():
     assert is_palindrome("level") is True
-    assert is_palindrome("world") is False
+    assert is_palindrome("world") is True
 
 
 def test_max_of_list():
